@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="contenair" id="contenair">
+        <div class="head" >
+            <div class="task" id="header" > <h1> Task <span style="color: aqua;font-family: 'Work Sans', sans-serif;
+                font-weight: 100;">List</span></h1></div>
+            <div class="addItem" id="AddItem" id="add-option"><h1 style="font-family: 'Work Sans', sans-serif;
+                font-weight: 100;"><img src="./ADD-TODO.svg"  width="50px" height="28px" alt=" " >Add Item</h1></div>
+        </div>
+
+        <div id="Back"  > <span id="text"> No Item In the List </span>
+          
+            <div id="hedngCopy"></div>
+        </div>
+
+        <!-- <div class="HollContenair"> -->
+        <div class="formAdd" id="formAdd" id="modal">
+            <h4>Add New List</h4>
+            <input type="text" placeholder="Add New List" id="AddBoxHeading">
+            <br><br>
+            <div class="btncon">
+            <button id="AddBox" onclick="TodoBox()">Add</button>
+            <button onclick="Remove()">Close</button></div>
+        </div>
+
+        <div class="Boxcontenair" id="Boxcontenair"></div>
+
+    </div>
+
+           <!-- </div> -->
+
+</body>
+<script src="Todo.js"></script>
+</html>

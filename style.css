@@ -1,0 +1,265 @@
+.contenair{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+#Back{
+    position: relative;
+    /* top: 50px; */
+    left: 10px;
+    
+    font-size: larger;
+    color: white;
+    /* display: flex;
+    justify-content: space-between; */
+}
+#hedngCopy{
+    position: relative;
+    left: 500px;
+    top: 50px;
+    font-size: 50px;
+}
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.formAdd{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* margin: 50px; */
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 85, 0);
+    background-color: aliceblue;
+}
+.formAdd .btncon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.btncon button{
+    width: 80px;
+    height: 28px;
+    border-radius: 7px;
+    background-color: rgb(255, 85, 0);;
+}
+.TodoBoxList{
+    box-shadow: rgba(255, 0, 0, 0.472) 0px 1px 2px, rgba(255, 0, 0, 0.472)  0px -1px 2px, rgba(255, 0, 0, 0.472)  0px 3px 2px, rgba(255, 0, 0, 0.472)  0px 2px 3px, rgba(255, 0, 0, 0.472)  0px -3px 2px;
+    width: 220px;
+    height: 290px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: aliceblue;
+
+}
+.TodoBoxList h3{
+/* background-color: rgb(202, 127, 30); */
+width: 220px;
+    text-align: center;
+    color: rgba(207, 101, 48, 0.722);
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+.TripListContenair {
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(109, 124, 119); */
+   position: relative;
+   top: -8px;
+   overflow:hidden;
+   /* color:rgb(193, 51, 51); */
+   /* display: flex; */
+   justify-content:space-between;
+   /* align-items: flex-start; */
+}
+.TripListContenair span{
+    position: relative;
+    left: 140px;
+    bottom: 15px;
+    margin-top: 5px;
+    width: 80px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px ;
+    background-color: greenyellow;
+}
+.btncontenair{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap: 19px;
+}
+.btncontenair  img:first-child{
+    /* position: relative; */
+    /* top: 35px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: rgba(245, 33, 5, 0.866);
+}
+.btncontenair  img:last-child{
+    width: 33px;
+    margin-right: 10px;
+    height: 33px;
+    border-radius: 7px;
+    /* color: rgb(10, 191, 191); */
+    /* background-color: rgb(98, 215, 219); */
+}
+
+
+ li{
+    list-style: none;
+    /* position: relative; */
+    left: 15px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+#Boxcontenair{
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+   
+}
+/* #newhead{
+    width: 600px;
+    height: 300px;
+    background-color: red;
+} */
+
+/* .LastInput h3{
+    width: 100%;
+    height: 100%;
+}
+.LastInput input{
+    width: 90%;
+    height: 100%;
+    margin: 10px;
+}
+.LastInput button{
+    width: 50%;
+    height: 100%;
+}
+.LastInput button{
+    width: 50%;
+    height: 100%;
+} */
+
+
+.NewListAdd{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 300px;
+    height: 160px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.NewListAdd h2{
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 85, 0);
+    font-family: 'Work Sans', sans-serif;
+                font-weight: 100;
+                
+}
+.NewListAdd input{
+    width: 200px;
+    position: relative;
+    left: 45px;
+    height: 24px;
+}
+.NewListAdd div{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NewListAdd button{
+   background-color: rgb(255, 85, 0);
+   color: white;
+   height: 30px;
+   width: 80px;
+   border-radius: 10px;
+   position: relative;
+   bottom: 10px;
+}
+
+@media (min-width:300px) and (max-width:600px){
+
+    .formAdd{
+        z-index: 4;
+    }
+
+    #Boxcontenair{
+       
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap;.. */
+        justify-content: space-around;
+        align-content: center;
+        z-index: 0px;
+       
+    }
+    .task{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .addItem{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .head{
+        width: 100%;
+        height: 50px;
+        display: block;
+        color: white;
+        justify-content: space-between;
+    }
+
+    .TodoBoxList{
+       margin: auto;
+       margin-top: 10px;
+    
+    }
+}
